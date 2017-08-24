@@ -2,12 +2,8 @@
 A web application for chat
 
 
-
-利用 react 系列技术栈 + socket.io 搭建，目标是熟悉使用react系列技术，包括但不局限于react、react-route、redux、material UI、express和socket.io
-
-
 ## Background
- * 为了进一步熟悉react开发，练手的了个Web聊天室，结合React+React-Router+React-Redux 实现页面功能。
+ * 为了进一步熟悉react开发，练手的了个Web聊天室，结合React+React-Router+React-Redux +socket.io 实现页面功能。
 
 ## Tech
  * [webpack](http://www.jianshu.com/p/42e11515c10f)
@@ -41,11 +37,11 @@ A web application for chat
 git clone https://github.com/rical730/HiChat.git
 cd HiChat
 npm install
-cd 
-sudo npm install -g babel-cli
+sudo npm install -global babel-cli
 cd server
 babel-node server.js
 ```
+然后打开127.0.0.1:3000就可以访问啦
 
 ## Problem
 
